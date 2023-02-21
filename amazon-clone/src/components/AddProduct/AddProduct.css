@@ -1,0 +1,84 @@
+.addproduct {
+    width: 40%;
+    min-width: 450px;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}
+
+.product-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.product-logo > img {
+    width: 100%;
+}
+
+.product-form {
+    border: 1px solid lightgray;
+    width: 55%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.product-form > h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.product-inputs {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.product-inputs > p {
+    font-size: 14px;
+    font-weight: 600
+}
+
+
+.product-inputs > input {
+    width: 95%;
+    height: 33px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    
+}
+
+
+.product-inputs > input:hover {
+border: 1px solid orange
+}
+
+
+.product-login-button {
+    width: 70%;
+    height: 35px;
+    background-color: #f3b414;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer
+}
+
+
+.product-login-button:hover {
+  background-color: #cf9c1a;
+   
+}

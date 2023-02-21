@@ -1,0 +1,118 @@
+.orders {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(234,237,237);
+    position: relative
+}
+
+.orders-main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.orders-container {
+    padding: 15px;
+    background-color: #fff;
+    width: 95%;
+}
+
+.orders-container > h2 {
+    font-weight: 500;
+    border-bottom: 3px solid darkgray;
+    padding-bottom: 15px;
+}
+
+.orders-details {
+    border-bottom: 3px solid darkgray;
+    padding-bottom: 20px;
+
+}
+
+.orders-address {
+    margin-top: 20px;
+}
+
+.orders-address > div {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.orders-address > p {
+    font-size: 14px;
+    margin-top: 4px
+}
+
+.orders-basket {
+    margin-top: 20px;
+}
+
+.orders-basket > p {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.span {
+    font-weight: 600;
+}
+
+
+.orders-product {
+    display: flex;
+    align-items: center;
+}
+
+.orders-description {
+    flex: 0.7;
+    margin-bottom: 25px;
+}
+
+.orders-description > h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.orders-description > p {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.orders-description > button {
+    background-color: transparent;
+    color: #1384b4;
+    border: none;
+    outline: none;
+    margin-top: 0px;
+    cursor: pointer;
+
+}
+
+.orders-description >button:hover {
+    text-decoration: underline;
+}
+
+.orders-image {
+    flex: 0.3
+}
+
+.orders-image > img {
+    width: 80%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .orders-image > img {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .orders-description > h4 {
+        font-size: 14px
+    }
+}
